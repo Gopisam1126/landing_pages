@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --font-fam-p: "Noto Sans JP", sans-serif;
+    --font-s-h1: 2rem;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: var(--font-fam-p);
+    font-size: var(--font-s-h1);
+}

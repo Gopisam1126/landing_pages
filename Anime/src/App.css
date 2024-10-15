@@ -1,0 +1,16 @@
+.main-sec-bg {
+    background-image: url("/images/anime_m_bg.png");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-div {
+    padding: 3rem 10vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width: 100vw;
+    height: 100vh;
+}
