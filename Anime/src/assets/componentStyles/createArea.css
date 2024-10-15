@@ -7,7 +7,13 @@
     --font-s-l: 4rem;
     --font-s-m: 3rem;
     --font-s-sm: 1.5rem;
+    --font-s-c: 1.2rem;
     --font-s-esm: 0.8rem;
+
+    --color-c: #000;
+}
+.main-ca-sec {
+    height: fit-content;
 }
 .main-anime-img, .explore-c {
     padding-top: 4rem;
@@ -41,4 +47,53 @@
     border-radius: 50%;
     background-color: orange;
     margin-left: 0.8vw;
+}
+.ep-ch-stat-c {
+    display: flex;
+    align-items: center;
+    font-family: var(--font-fam-p);
+    font-size: var(--font-s-c);
+    width: fit-content;
+    position: relative;
+    top: -8rem;
+    padding: 1.4rem 2.4vw;
+    background-color: rgba(161, 161, 161, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 20vw;
+    height: 11rem;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 50px;
+}
+.num-ep {
+    font-size: var(--font-s-m);
+    color: orange;
+    font-weight: 800;
+}
+.ep-ch-c {
+    display: flex;
+    align-items: center;
+}
+.ep-stat {
+    padding-bottom: 1.2rem;
+}
+.continue-btn {
+    position: relative;
+    top: 2.4rem;
+    left: 9.3vw;
+    background-color: orange;
+    width: 2.2vw;
+    height: 2.2rem;
+    padding: 0.29rem 0.23vw;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.ep-ch-div {
+    position: relative;
+    left: 4rem;
+    top: -3.5rem;
+    transform: rotate(90deg);
+    width: 100px;
+
 }

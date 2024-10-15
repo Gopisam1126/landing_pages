@@ -24,22 +24,32 @@ function CreateArea() {
                     </div>
                 </div>
             </div>
-            <div className="current-status-container">
-                <div className="ep-ch-stat-c">
+            <div className="ep-ch-stat-c">
+                <div className="ep-stat-c">
                     <h3 className="completed-head">COMPLETED</h3>
                     <div className="ep-ch-c">
                         <div className="ep-stat">
                             <span className="num-ep">120</span>
-                            <p className="completed-p">Episodes Completed</p>
+                            <p className="completed-p">Episodes</p>
                         </div>
-                        <div className="continue-b-btn-c">
+                        <div className="continue-btn">
+                            <ArrowOutwardIcon/>
+                        </div>
+                        {/* <div className="continue-b-btn-c">
                             <button className="continue-btn">
                                 CONTINUE WATCHING
                                 <div className="cw-icon-c">
                                     <ArrowOutwardIcon/>
                                 </div>
                             </button>
-                        </div>
+                        </div> */}
+                    </div>
+                </div>
+                <hr className="ep-ch-div" />
+                <div className="ch-stat-c">
+                    <div className="ch-stat">
+                        <span className="num-ch">304</span>
+                        <p className="completed-ch">Chapters</p>
                     </div>
                 </div>
             </div>
