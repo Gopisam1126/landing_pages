@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --font-fam-p: "Noto Sans JP", sans-serif;
+    --font-fam-s: "Pacifico", cursive; 
+    --font-s-h1: 2rem;
+    --font-s-exl: 5rem;
+    --font-s-l: 4rem;
+    --font-s-m: 3rem;
+    --font-s-sm: 1.5rem;
+    --font-s-c: 1.2rem;
+    --font-s-esm: 0.8rem;
+
+    --color-c: #000;
+}
+.f-ic {
+    /* background-color: orange; */
+    background-color: rgba(192, 192, 192, 0.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width: 2.5vw;
+    height: 2.5rem;
+    padding: 0.5rem 0.5vw;
+    border-radius: 50%;
+}
+.f-ic:not(.stream-icon) {
+    margin-top: 2rem;
+}
+.stream-icon {
+    background-color: orange;
+}

@@ -1,5 +1,6 @@
 import "../componentStyles/createArea.css";
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import FunctionIcons from "./functionIcons";
 function CreateArea() {
     return <>
         <section className="main-ca-sec">
@@ -23,6 +24,9 @@ function CreateArea() {
                         </button>
                     </div>
                 </div>
+                <div className="function-icons-d">
+                    <FunctionIcons/>
+                </div>
             </div>
             <div className="ep-ch-stat-c">
                 <div className="ep-stat-c">
@@ -44,8 +48,8 @@ function CreateArea() {
                             </button>
                         </div> */}
                     </div>
-                </div>
                 <hr className="ep-ch-div" />
+                </div>
                 <div className="ch-stat-c">
                     <div className="ch-stat">
                         <span className="num-ch">304</span>

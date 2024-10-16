@@ -21,6 +21,7 @@
 .explore-c {
     margin-top: 5rem;
     width: 20vw;
+    margin-left: 1.5vw;
 }
 .img-desc-c {
     display: flex;
@@ -55,32 +56,46 @@
     font-size: var(--font-s-c);
     width: fit-content;
     position: relative;
-    top: -8rem;
+    top: -12rem;
     padding: 1.4rem 2.4vw;
-    background-color: rgba(161, 161, 161, 0.7);
+    background-color: rgba(134, 134, 134, 0.7);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    width: 20vw;
-    height: 11rem;
+    width: 25vw;
+    height: 15rem;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 50px;
 }
-.num-ep {
+.completed-head {
+    margin-bottom: 1.2rem;
+}
+.num-ep, .num-ch {
     font-size: var(--font-s-m);
     color: orange;
     font-weight: 800;
+}
+.num-ch {
+    position: relative;
+    top: 0.5rem;
 }
 .ep-ch-c {
     display: flex;
     align-items: center;
 }
-.ep-stat {
-    padding-bottom: 1.2rem;
+.ep-stat, .ch-stat {
+    padding: 0.5rem 0.8vw;
+    background-color: #fefefa;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.ch-stat {
+    position: relative;
+    top: 1.7rem;
 }
 .continue-btn {
     position: relative;
     top: 2.4rem;
-    left: 9.3vw;
+    left: 14vw;
     background-color: orange;
     width: 2.2vw;
     height: 2.2rem;
@@ -95,5 +110,10 @@
     top: -3.5rem;
     transform: rotate(90deg);
     width: 100px;
-
+    margin-left: 0.7vw;
+}
+.function-icons-d {
+    position: relative;
+    top: 10rem;
+    left: 20vw;
 }
