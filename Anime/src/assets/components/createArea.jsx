@@ -30,7 +30,7 @@ function CreateArea() {
             </div>
             <div className="ep-ch-stat-c">
                 <div className="ep-stat-c">
-                    <h3 className="completed-head">COMPLETED</h3>
+                    <h5 className="completed-head">COMPLETED</h5>
                     <div className="ep-ch-c">
                         <div className="ep-stat">
                             <span className="num-ep">120</span>
@@ -57,6 +57,14 @@ function CreateArea() {
                     </div>
                 </div>
             </div>
+            {/* <div className="continue-watching-d">
+                <h5 className="cw-head">
+                    CONTINUE WATCHING
+                </h5>
+                <div className="cw-icon">
+                    <ArrowOutwardIcon/>
+                </div>
+            </div> */}
         </section>
     </>
 }

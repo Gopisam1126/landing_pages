@@ -12,13 +12,13 @@ function Header() {
                 <input type="text" className="search-input" />
                 <SearchIcon style={{
                     position: "relative",
-                    left: "45rem"
+                    left: "-9.5rem"
                 }}/>
             </div>
             <div className="notification">
                 <NotificationsOutlinedIcon style={{
                     position: "relative",
-                    left: "48rem",
+                    left: "32rem",
                     cursor: "pointer",
                 }}/>
             </div>

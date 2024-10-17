@@ -12,6 +12,10 @@
 
     --color-c: #000;
 }
+.FC-main-sec {
+    position: relative;
+    top: -3rem;
+}
 .f-ic {
     /* background-color: orange; */
     background-color: rgba(192, 192, 192, 0.5);

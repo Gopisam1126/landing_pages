@@ -13,10 +13,11 @@
     --color-c: #000;
 }
 .main-ca-sec {
-    height: fit-content;
+    max-height: 86vh;
+    overflow: hidden;
 }
 .main-anime-img, .explore-c {
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 .explore-c {
     margin-top: 5rem;
@@ -56,21 +57,22 @@
     font-size: var(--font-s-c);
     width: fit-content;
     position: relative;
-    top: -12rem;
+    top: -10rem;
     padding: 1.4rem 2.4vw;
-    background-color: rgba(134, 134, 134, 0.7);
+    background-color: rgba(177, 177, 177, 0.4);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     width: 25vw;
-    height: 15rem;
+    height: 13rem;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 50px;
 }
 .completed-head {
     margin-bottom: 1.2rem;
+    
 }
 .num-ep, .num-ch {
-    font-size: var(--font-s-m);
+    font-size: var(--font-s-sm);
     color: orange;
     font-weight: 800;
 }
@@ -85,24 +87,26 @@
 .ep-stat, .ch-stat {
     padding: 0.5rem 0.8vw;
     background-color: #fefefa;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 10px;
+    /* border-bottom-left-radius: 30px; */
+    /* border-bottom-right-radius: 30px; */
 }
 .ch-stat {
     position: relative;
-    top: 1.7rem;
+    top: 1.4rem;
 }
 .continue-btn {
     position: relative;
-    top: 2.4rem;
-    left: 14vw;
+    top: 3rem;
+    left: 12vw;
     background-color: orange;
     width: 2.2vw;
     height: 2.2rem;
     padding: 0.29rem 0.23vw;
-    border-top-left-radius: 50%;
+    /* border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-right-radius: 50%; */
+    border-radius: 10px;
 }
 .ep-ch-div {
     position: relative;
@@ -116,4 +120,28 @@
     position: relative;
     top: 10rem;
     left: 20vw;
+}
+
+.continue-watching-d {
+    font-family: var(--font-fam-p);
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: -15rem;
+    left: 59vw;
+    width: 19vw;
+    font-size: var(--font-s-sm);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 1.2rem 1.2rem;
+    background-color: rgba(212, 110, 8, 0.548);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.cw-icon {
+    width: 2vw;
+    margin-left: 0.4vw;
+    padding: 0 0.2vw;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
