@@ -1,3 +1,4 @@
+import "../componentStyles/common.css";
 function Description() {
     return <>
         <section className="desc-section">

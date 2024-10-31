@@ -1,0 +1,33 @@
+:root {
+    --fs-h1: 5rem;
+    --fs-h2: 4rem;
+    --fs-h3: 3rem;
+    --fs-h2: 2rem;
+
+    --fs-nav: 1rem;
+    --fs-p: 1.6rem;
+    --fs-m: 1.8rem;
+
+    /* colors */
+
+    --fc-prime: #DAD3BE;
+    --fc-sub-prime: #B7B597;
+    --fc-sub-sec: #6B8A7A; 
+    --fc-sec: #254336;
+
+    /* paddings */
+
+    --padding-r: 11.2rem;
+
+}
+.nav-ul {
+    display: flex;
+    list-style: none;
+}
+.navbar {
+    float: right;
+    padding-right: var(--padding-r);
+}
+.nav-li:not(.nav-li1) {
+    margin-left: 3rem;
+}
