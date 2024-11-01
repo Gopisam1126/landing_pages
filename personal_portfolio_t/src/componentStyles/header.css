@@ -28,6 +28,15 @@
     float: right;
     padding-right: var(--padding-r);
 }
+.nav-li {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+.nav-li:hover {
+    opacity: 1;
+    scale: 1.2;
+}
 .nav-li:not(.nav-li1) {
     margin-left: 3rem;
 }
